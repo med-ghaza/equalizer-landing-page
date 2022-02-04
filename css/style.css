@@ -375,9 +375,10 @@ footer .info p a {
 
 footer .social {
   display: flex;
+  align-items: center;
 }
 
-footer .social a {
+footer .social a:not(:last-child) {
   margin-right: 20px;
 }
 
